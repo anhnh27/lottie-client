@@ -1,0 +1,16 @@
+{
+  "name": "Lottie Progressive Web App",
+  "short_name": "Offttie",
+  "description": "Progressive Web App that allow browsing & updating animations even when you're offline.",
+  "icons": [
+    {
+      "src": "./assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,36 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+
+  margin: 0 auto;
+  text-align: center;
+
+  min-height: 100vh;
+  font-family: Roboto, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #212529;
+  background-color: #fff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pattern-bg {
+  background-color: #fff;
+  background-image: radial-gradient(#444cf750 0.5px, #fff 0.5px);
+  background-size: 10px 10px;
+}
